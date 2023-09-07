@@ -14,6 +14,7 @@ const { showSide, isMobile } = storeToRefs(appStore);
 
 const about = () => {
   ElMessageBox.alert(
+
     "关于本项目",
     {
       dangerouslyUseHTMLString: true,
